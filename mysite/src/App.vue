@@ -3,13 +3,18 @@
     <div class="container-fluid">
       <site-header></site-header>
       <Home class="wrapper"></Home>
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <div class="container">
+        <div class="row">
+          <div class="col m-4">
+            <vue-typer text='Hello! An inquiring mind is waiting.' pre-type-delay='5000'></vue-typer>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import SiteHeader from './components/SiteHeader.vue'
 import Home from './components/Home.vue'
 import 'animate.css'
@@ -17,7 +22,6 @@ import 'animate.css'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     SiteHeader,
     Home
   }
