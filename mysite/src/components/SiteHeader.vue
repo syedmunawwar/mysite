@@ -1,22 +1,24 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark changeText">
-      <a class="navbar-brand logo-container animate__animated animate__slideInUp" href="#"><h1>S<span>MQ</span></h1></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse animate__animated animate__slideInRight" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PROJECT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SKILLS</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light changeText">
+      <div class="container">
+        <a class="navbar-brand logo-container animate__animated animate__slideInUp" href="#"><h1>S<span>MQ</span></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse animate__animated animate__slideInRight" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SKILLS</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
@@ -35,7 +37,7 @@ export default {
 }
 
 .logo-container h1 {
-  color: white;
+  color: black;
   height: 100%;
   display: table-cell;
   vertical-align: middle;
