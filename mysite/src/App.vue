@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container-fluid">
+      <site-header></site-header>
+      <img alt="Vue logo" src="./assets/logo.png">
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </div>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SiteHeader from './components/SiteHeader.vue'
+import 'animate.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SiteHeader
   }
 }
 </script>
@@ -23,6 +29,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+.container-fluid {
+    padding-right:0 !important;
+    padding-left:0 !important;
+ }
 </style>
