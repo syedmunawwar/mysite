@@ -2,20 +2,23 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light changeText">
       <div class="container">
-        <a class="navbar-brand logo-container animate__animated animate__slideInUp" href="#"><h1>S<span>MQ</span></h1></a>
+        <router-link class="navbar-brand logo-container animate__animated animate__slideInUp" to="/"><h1>S<span>MQ</span></h1></router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse animate__animated animate__slideInRight" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME</a>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/">HOME<span class="sr-only">(current)</span></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROJECT</a>
+              <router-link class="nav-link" to="/Portfolio">PORTFOLIO</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SKILLS</a>
+              <router-link class="nav-link" to="/skills">SKILLS</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/about">ABOUT</router-link>
             </li>
           </ul>
         </div>
