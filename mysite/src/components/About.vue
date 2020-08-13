@@ -1,7 +1,7 @@
 <template>
   <div class="container" >
     <div class="d-flex flex-column justify-content-center p-5"> 
-      <div class="m-3 animate__animated animate__slideInRight"><img src="../assets/smq.jpeg" class="profile-pic" /></div>
+      <div class="m-3 animate__animated "><img src="../assets/smq.jpeg" class="profile-pic" /></div>
       <div class="p-2 animate__animated animate__slideInUp "><h4 class="font-weight-bold">Syed Munawwar Quadri</h4></div>
       <div class="row animate__animated animate__slideInUp ">
         <div class="col">
@@ -11,19 +11,16 @@
         </div>
       </div>
       <br>
-      <div class="row animate__animated animate__slideInUp ">
-          <div class="col">
-              <h4>Personal Details</h4>
-              <ul class="text-left">
-                  <li>Hobbies: <span>Swimming, Trekking and Traveling </span></li>
-                  <li>Email address: <span>syedmunawwar990@gmail.com</span></li>
-                  <li>Place of Birth: <span>India</span></li>
-              </ul>
-          </div>
-      </div>
       <p>
-          For more details you can drop me an email or connect me on social media.
+          For more details you can drop me an <a href="mailto:syedmunawwar990@gmail.com">email</a> or connect me on social media.
       </p>
+      <div>
+        <div class="footer_social">
+          <a href="https://www.linkedin.com/in/syedmunawwar/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/syedmunawwar/"><i class="fa fa-github"></i></a>
+          <a href="https://www.instagram.com/syedmunawwarq/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
     </div>
 
   </div>

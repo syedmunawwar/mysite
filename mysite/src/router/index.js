@@ -9,7 +9,7 @@ const Portfolio = () => import ('@/components/Portfolio.vue')
 const Skills = () => import ('@/components/Skills.vue')
 
 const router = new Router ({
-    mode : 'history',
+    // mode : 'history',
     routes : [
         {
             path    : '/',

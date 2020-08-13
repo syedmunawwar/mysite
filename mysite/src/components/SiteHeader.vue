@@ -12,7 +12,7 @@
               <router-link class="nav-link" to="/">HOME<span class="sr-only">(current)</span></router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/Portfolio">PORTFOLIO</router-link>
+              <router-link class="nav-link" to="/portfolio">PORTFOLIO</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/skills">SKILLS</router-link>
