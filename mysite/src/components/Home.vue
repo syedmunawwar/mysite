@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="home home-header">
-      <img alt="Vue logo" class="animate__animated animate__slideInUp" src="../assets/logo.png">
+      <img alt="Vue logo" class="animate__animated animate__slideInUp" src="../assets/logo.svg">
     </div>
     <div class="container">
       <div class="row d-flex flex-column my-4">
@@ -28,7 +28,7 @@ export default {
   height: 100vh !important;
 }
 .home {
-    background-image: url(../assets/bg.jpg);
+    background-image: url(../assets/bg.svg);
     background-attachment: center;
     background-position: 50%;
     background-repeat: no-repeat;

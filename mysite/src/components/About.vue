@@ -1,7 +1,7 @@
 <template>
   <div class="container" >
     <div class="d-flex flex-column justify-content-center p-5"> 
-      <div class="m-3 animate__animated "><img src="../assets/smq.jpeg" class="profile-pic" /></div>
+      <div class="m-3 animate__animated "><img src="../assets/smq.svg" class="profile-pic" /></div>
       <div class="p-2 animate__animated animate__slideInUp "><h4 class="font-weight-bold">Syed Munawwar Quadri</h4></div>
       <div class="row animate__animated animate__slideInUp ">
         <div class="col">
