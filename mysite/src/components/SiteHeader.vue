@@ -30,14 +30,7 @@
 <script>
 
 export default {
-  name: 'SiteHeader',
-  metaInfo: {
-      title: 'Syed Munawwar Quadri',
-      htmlAttrs: {
-        lang: 'en',
-        amp: true
-      }
-    }
+  name: 'SiteHeader'
   }
 </script>
 

@@ -4,9 +4,12 @@
       <img alt="Vue logo" class="animate__animated animate__slideInUp" src="../assets/logo.png">
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col my-4 smallText">
-          <vue-typer text='Hi, I’m Syed! I like code() and meeting new people.' caret-animation='smooth'  :pre-erase-delay='5000'></vue-typer>
+      <div class="row d-flex flex-column my-4">
+        <div class="col ">
+          <vue-typer text='Hi, I’m Syed!' caret-animation='smooth'  :repeat='0'></vue-typer>
+        </div>
+        <div class="col">
+          <vue-typer text='I like code() and meeting new people.' caret-animation='smooth' :repeat='0' ></vue-typer>
         </div>
       </div>
     </div>
@@ -16,15 +19,7 @@
 <script>
 
 export default {
-  name: 'Home',
-  metaInfo: {
-      title: 'Syed Munawwar Quadri',
-      titleTemplate: '%s - Home!',
-      htmlAttrs: {
-        lang: 'en',
-        amp: true
-      }
-    }
+  name: 'Home'
   }
 </script>
 
@@ -43,11 +38,6 @@ export default {
 }
 .animate__animatedanimate__slideInUp {
   --animate-duration: 2s;
-}
-@media (max-width: 400px) { 
-  .smallText {
-    font-size: 11px;
-  }
 }
 
 </style>

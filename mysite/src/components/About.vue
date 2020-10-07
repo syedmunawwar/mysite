@@ -32,14 +32,7 @@
 
 <script>
 export default {
-  name : 'About',
-  metaInfo: {
-      title: 'Syed Munawwar Quadri',
-      htmlAttrs: {
-        lang: 'en',
-        amp: true
-      }
-    }
+  name : 'About'
 }
 </script>
 
