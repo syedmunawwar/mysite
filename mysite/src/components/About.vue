@@ -11,14 +11,18 @@
         </div>
       </div>
       <br>
-      <p>
-          For more details you can drop me an <a href="mailto:syedmunawwar990@gmail.com">email</a> or connect me on social media.
-      </p>
+      <div class="row">
+        <div class="col">
+          <p>
+              For more details you can drop me an <a href="mailto:syedmunawwar990@gmail.com">email</a> or connect me on social media.
+          </p>
+        </div>
+      </div>
       <div>
-        <div class="footer_social">
-          <a href="https://www.linkedin.com/in/syedmunawwar/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/syedmunawwar/"><i class="fa fa-github"></i></a>
-          <a href="https://www.instagram.com/syedmunawwarq/"><i class="fa fa-instagram"></i></a>
+        <div class="footer_social py-4">
+          <a href="https://www.linkedin.com/in/syedmunawwar/" class="p-2"><img class="media-logo" src="../assets/linkedin.svg" alt="Linkedin Logo"> </a>
+          <a href="https://github.com/syedmunawwar/" class="p-2"><img class="media-logo" src="../assets/github-logo.svg" alt="GitHub Logo"> </a>
+          <a href="https://www.instagram.com/syedmunawwarq/" class="p-2"><img class="media-logo" src="../assets/instagram.svg" alt="Instagram Logo"> </a>
         </div>
       </div>
     </div>
@@ -28,12 +32,22 @@
 
 <script>
 export default {
-    name : 'About'
+  name : 'About',
+  metaInfo: {
+      title: 'Syed Munawwar Quadri',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    }
 }
 </script>
 
 <style>
 .profile-pic {
    border-radius: 50%;
+}
+.media-logo {
+  height: 40px
 }
 </style>

@@ -181,6 +181,13 @@
 <script>
 export default {
   name : 'Portfolio',
+  metaInfo: {
+    title: 'Syed Munawwar Quadri',
+    htmlAttrs: {
+      lang: 'en',
+      amp: true
+    }
+  },
   data: function () {
     return {
       project : true,

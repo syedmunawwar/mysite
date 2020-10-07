@@ -11,7 +11,7 @@
 
 <script>
 import SiteHeader from './components/SiteHeader.vue'
-import 'animate.css'
+// import 'animate.css'
 
 
 

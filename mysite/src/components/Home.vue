@@ -5,7 +5,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col m-4">
+        <div class="col my-4 smallText">
           <vue-typer text='Hi, I’m Syed! I like code() and meeting new people.' caret-animation='smooth'  :pre-erase-delay='5000'></vue-typer>
         </div>
       </div>
@@ -16,7 +16,15 @@
 <script>
 
 export default {
-  name: 'Home'
+  name: 'Home',
+  metaInfo: {
+      title: 'Syed Munawwar Quadri',
+      titleTemplate: '%s - Home!',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    }
   }
 </script>
 
@@ -35,6 +43,11 @@ export default {
 }
 .animate__animatedanimate__slideInUp {
   --animate-duration: 2s;
+}
+@media (max-width: 400px) { 
+  .smallText {
+    font-size: 11px;
+  }
 }
 
 </style>

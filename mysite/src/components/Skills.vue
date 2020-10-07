@@ -57,6 +57,13 @@ import { FingerprintSpinner  } from 'epic-spinners'
 
 export default {
     name : 'Skills',
+    metaInfo: {
+      title: 'Syed Munawwar Quadri',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    },
     components: {
       FingerprintSpinner 
     }
