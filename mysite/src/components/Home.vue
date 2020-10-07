@@ -28,7 +28,7 @@ export default {
   height: 100vh !important;
 }
 .home {
-    background-image: url(../assets/bg.jpeg);
+    background-image: url(../assets/bg.webp);
     background-attachment: center;
     background-position: 50%;
     background-repeat: no-repeat;
