@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const Home = () => import (/* webpackPrefetch: true */  '@/components/Home.vue')
-const About = () => import (/* webpackPrefetch: true */  '@/components/About.vue')
-const Portfolio = () => import (/* webpackPrefetch: true */  '@/components/Portfolio.vue')
-const Skills = () => import (/* webpackPrefetch: true */  '@/components/Skills.vue')
+const Home = () => import (/*webpackChunkName:"Home" */  '@/components/Home.vue')
+const About = () => import (/*webpackChunkName:"About" */  '@/components/About.vue')
+const Portfolio = () => import (/*webpackChunkName:"Portfolio" */ '@/components/Portfolio.vue')
+const Skills = () => import (/*webpackChunkName:"Skills" */ '@/components/Skills.vue')
 
 const router = new Router ({
     // mode : 'history',
