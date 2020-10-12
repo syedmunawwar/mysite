@@ -1,2 +1,2 @@
 # mysite
-Will be developing personal website. 
+Used Vue 2 to build a website
