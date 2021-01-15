@@ -8,7 +8,7 @@
         <div v-if="work"  class="pl-3">
           <div class="pt-3 ">
             <h3>Microchip Technology</h3>
-            <h6>microchipDirect AN E-COMMERECE PLATFORM (Revamp Project)</h6>
+            <h6>microchip Direct an E-Commerce Platform</h6>
             <ul>
               <li>
                 Position : <span class="font-weight-bold" >Software Developer</span>
@@ -20,13 +20,18 @@
                 Place : <span class="font-weight-bold" >Bangalore, India</span>
               </li>
             </ul>
-            <p>Microchip Technology Inc. is an American based firm that is a manufacturer of microcontroller, mixed-signal, analog and Flash-IP integrated circuits. It develops a wide range of microcontrollers and integrated circuits (ICs), for the hobbyist and professional markets. It sells its parts through a dedicated eCommerce website (Microchip Direct) that has a large user base across <br>
-              Project Description: To convert all the pages (100+) of legacy microchip direct from MVC/ASP.Net site into a single page application for faster checkout and better user experience.<br>
-              Responsibilities: Played a crucial role from the development to production.<br>
-              Involved in all phases of SDLC starting from Requirements Analysis, Design, development, unit testing, and Deployment<br>
-              Extensively worked on developing the project with agile methodology and quickly learned the latest technologies like Vue.js, VSTS, Bootstrap 4 and flexbox to enhance the quality of the application being built.<br>
-              Technologies: C#, MVC, Vue.js, API, Bootstrap, jQuery, JavaScript, SQL and asp.net.<br>
-              Software’s: Visual Studio, VS Code, VSTS and SQL</p>
+            <p>Microchip Technology Inc. sells its parts through a dedicated eCommerce website (Microchip Direct) that has a large user base across <br>
+              <span class="font-weight-bold">Responsibilities:</span> Involved in all phases of SDLC starting from Requirements Analysis, Design, development, unit testing, and Deployment. Extensively worked as a full stack developer on projects with agile methodology and quickly learned technologies like Vue.js, Bootstrap 4 and flexbox to enhance the quality of the application being built. Played a crucial role from the development to production.<br>
+              <span class="font-weight-bold">Technologies:</span> C#, MVC, Vue.js, API, Bootstrap, jQuery, JavaScript, SQL, asp.net, google tag manager, google merchant account, IHS markit, CyberSource, Alipay, Union pay and Fusion (solar, zookeeper)<br>
+              <span class="font-weight-bold">Software’s:</span> Visual Studio, VS Code, Azure Devops, Git and SQL<br>
+              <span class="font-weight-bold">Projects worked:</span> <br>
+              1. Complete revamp of site (100+ pages): Converted website from MVC architecture to MVVM architecture<br>
+              2. Google shopping integration with microchip Direct: Enabled shopping of parts via Google shopping<br>
+              3. Alternative Parts: Show alternatives of a part by different match types from 10 million combination provide by IHS<br>
+              4. Credit line Process Update: Updated the credit line process based on the continent of the user.<br>
+              5. Search implementation using Fusion: Provide fast and relevant search using Fusion. And also categorizing search results using facets.<br>
+              6. Guest Checkout: Enabled user to place an order without creating an account. Credit card, Alipay and UnionPay payment methods were implemented for guest checkout.<br>
+              7. Product pages as a widget for 3rd party: By importing a JavaScript file client can use the product pages of mDirect.</p>
               <hr class="py-2">
           </div>
           <div class="pt-3 ">
@@ -110,7 +115,7 @@
           <hr class="py-2">
         </div>
         <div class="pt-3">
-          <h3>APACHE GIRAPH DEPLOYED ON APACHE HADOOP</h3>
+          <h3>CASE STUDY:APACHE GIRAPH DEPLOYED ON APACHE HADOOP</h3>
           <h6>Mentored by <a href="https://in.linkedin.com/in/dinakar-sitaram-a5722a">Dr. Dinkar Sitaram</a>, Director Center for Cloud Computing and Big Data and <a href="https://in.linkedin.com/in/prafullata-auradkar-23882a57"> Ms. Prafullata Auradkar</a>, Assistant Professor, Computer Science and Engineering.</h6>
           <ul>
             <li>
@@ -123,22 +128,6 @@
           <p>Deployed Apache Giraph (a graph database framework) on Apache Hadoop’s single node and multi-node cluster.<br>
           Studied the properties of Large Network Graphs from Stanford Network Analysis Platform (SNAP) and wrote a conversion algorithm to convert the format of Large Network graphs to a format accepted by Apache Giraph.<br>
           Ran Giraph jobs and tracked the job performance of master and slave nodes on server.</p>
-          <hr class="py-2">
-        </div>
-        <div class="pt-3">
-          <h3>OPERATING SYSTEMS DESIGN</h3>
-          <h6>Mentored by <a href="https://in.linkedin.com/in/kalsubra"> Dr. K.V Subramaniam</a>(OS Course Project).</h6>
-          <ul>
-            <li>
-              Duration : <span class="font-weight-bold" >AUG’15 - NOV’15</span>
-            </li>
-            <li>
-              Place : <span class="font-weight-bold" >Bangalore, India</span>
-            </li>
-          </ul>
-          <p>Simulation of various parts of the operating system.<br>
-          Like, Simulation of Processor (for a given task), Processes and threads scheduling, Inter process communication, LRU algorithm, Disk Management (SCAN, C-SCAN, SST) and File Management.<br>
-          Simulation was done in Python.</p>
           <hr class="py-2">
         </div>
         <div class="pt-3">

@@ -4,7 +4,7 @@
       <img alt="Vue logo" class="animate__animated animate__slideInUp" src="../assets/logo.svg">
     </div>
     <div class="container">
-      <div class="row d-flex flex-column my-4">
+      <div class="row d-flex flex-column my-4 py-5">
         <div class="col ">
           <vue-typer text='Hi, I’m Syed!' caret-animation='smooth'  :repeat='0'></vue-typer>
         </div>
